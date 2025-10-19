@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neatzy</title>
+
+
+    <!-- ========== GOOGLE FONT =========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- =========== Emoji to facvicon ===========-->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🧼</text></svg>">
+
+    <!-- ========== ICONSCOUT CDN ========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css">
+
+    <!-- ========== Linking CSS ========== -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- ========= Start of Navbar =========== -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" target="_blank"><h3>NEATZY.</h3></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#qdesc">About Us</a></li>
+                <li><a href="#foot">Contact Us</a></li>
+            </ul>
+            <div class="user">Username</div>
+        </div>
+    </nav>
+    <!-- ========= End of Navbar -->
+    
+
+    <!-- ============ Start of Header section =============== -->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Revitalize Your Colothes with Expert <span>Laundary Services!</span></h1>
+                <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+                <button onclick="bookServiceBtnClick()"><i class="uil uil-store-alt"></i>Book a service today!</button>
+            </div>
+            <div class="header__right">
+                <div class="img">
+                    <img src="./assets/washing-machine.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============= Start of Service Overview Section ==============-->
+    <section class="overview__section">
+        <div class="container overview__container">
+            <h2>Our Achievements</h2>
+            <div class="achievement__data">
+                <div>
+                    <p>15+</p>
+                    <small>Laundary Services</small>
+                </div>
+                <div>
+                    <p>240+</p>
+                    <small>Happy Customers</small>
+                </div>
+                <div>
+                    <p>2+ Yrs</p>
+                    <small>Experience</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========== Our services section ========== -->
+    <section class="our__services" id="services">
+        <div class="container services__container">
+            <div class="services__left">
+                <div class="services__left__header">
+                    <h2>Our Services</h2>
+                    <p>Click on the "Add Item" button to add the services to your cart</p>
+                </div>
+                <div class="services__left__middle">
+
+                    <div class="services">
+                        <div class="service__name-price">
+                            <p><img src="./assets/dry_cleaning.png"></p>
+                            <p>Dry cleaning</p>
+                            <p><span>&#8377 200.00</span></p>
+                        </div>
+                        <div>
+                            <button class="add__remove">Add Item<i class="uil uil-plus-circle"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="services">
+                        <div class="service__name-price">
+                            <p><img src="./assets/wash_and_fold.png"></p>
+                            <p>Wash & Fold</p>
+                            <p><span>&#8377 100.00</span></p>
+                        </div>
+                        <div>
+                            <button class="add__remove">Add Item<i class="uil uil-plus-circle"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="services">
+                        <div class="service__name-price">
+                            <p><img src="./assets/ironing.png"></p>
+                            <p>Ironing</p>
+                            <p><span>&#8377 30.00</span></p>
+                        </div>
+                        <div>
+                            <button class="add__remove">Add Item<i class="uil uil-plus-circle"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="services">
+                        <div class="service__name-price">
+                            <p><img src="./assets/stain_removal.png"></p>
+                            <p>Stain Removal</p>
+                            <p><span>&#8377 500.00</span></p>
+                        </div>
+                        <div>
+                            <button class="add__remove">Add Item<i class="uil uil-plus-circle"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="services">
+                        <div class="service__name-price">
+                            <p><img src="./assets/leather_and_seude_cleaning.png"></p>
+                            <p>Leather & Suede Cleaning</p>
+                            <p><span>&#8377 999.00</span></p>
+                        </div>
+                        <div>
+                            <button class="add__remove">Add Item<i class="uil uil-plus-circle"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="services">
+                        <div class="service__name-price">
+                            <p><img src="./assets/wdding_dress_cleaning.png"></p>
+                            <p>Wedding Dress Cleaning</p>
+                            <p><span>&#8377 2800.00</span></p>
+                        </div>
+                        <div>
+                            <button class="add__remove">Add Item<i class="uil uil-plus-circle"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__left__bottom">
+                    <p><span>&#x1F6C8</span> Add the items to the cart and book now</p>
+                </div>
+            </div>
+
+            <div class="services__right">
+                <div class="services__right__one">
+                    <div class="services_right__one__header">
+                        <h3>Added Items</h3>
+                    </div>
+
+                    <div class="services_right__one__middle">
+                        <div class="row__col">
+                            <div class="s__no">
+                                <p>S.No.</p>
+                            </div>
+                            <div class="service__name">
+                                <p>Service Name</p>
+                            </div>
+                            <div class="price__s">
+                                <p>Price</p>
+                            </div>
+                        </div>
+
+                        <div class="temp">
+                            <p class="pi">&#x1F6C8</p>
+                            <p class="pn">No Items Added</p>
+                            <p class="pa">Add items to the cart from the services bar</p>
+                        </div>
+
+                    </div>
+
+                    <div class="services_right__one__bottom">
+                        <div class="total">
+                            <p>Total Amount</p>
+                            <p>&#8377<span>0</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__right__two">
+                    <div class="services__right__two__header">
+                        <p>Book Now</p>
+                    </div>
+                    <form action="">
+                        <label for="full_name">Full Name</label>
+                        <input type="text" name="full_name" required placeholder="Jon Doe" class="name">
+                        <div class="mail__phone">
+                            <div class="mail">
+                                <label for="mailid">Email ID</label>
+                                <input type="email" name="mailid" required placeholder="mailid@gmail.com" class="mailid">
+                            </div>
+                            <div class="phone">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" required placeholder="0000000000" class="ph">
+                            </div>
+                        </div>
+                        <button type="button" class="book">Book now</button>
+                        <p class="booking-error" style="display: none;"><span>&#x1F6C8;</span> Add the items to the cart to book</p>
+                        <p class="null-value-error" style="display: none;"><span>&#x1F6C8;</span> Please enter all the details</p>
+                        <p class="success" style="display: none;"><span>&#x1F6C8;</span>Email has been sent successfully</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =========== Quality description section ============ -->
+    <section class="quality__overview-section" id="qdesc">
+        <div class="container quality__overview__container">
+            <div class="features">
+                <img src="./assets/premium_services.png">
+                <h4>Premium Services</h4>
+                <p>Elevate your wardrobe with our meticious dry cleaning, ensuring garments look and feel as good as new.</p>
+            </div>
+            <div class="features">
+                <img src="./assets/customer_care.png">
+                <h4>Quick Support</h4>
+                <p>We're committed to providing prompt solutions to ensure your experience is smooth and worry-free.</p>
+            </div>
+            <div class="features">
+                <img src="./assets/hastle_free_delivery.png">
+                <h4>Hassle Free Delivery</h4>
+                <p>Enjoy seamless service with our convenient pickup and delivery options, tailored to your schedule.</p>
+            </div>
+            <div class="features">
+                <img src="./assets/affordable_prices.png">
+                <h4>Affordable Prices</h4>
+                <p>Experience exceptional care without breaking the bank - our affordable prices make laundary day stress-free.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============= Newsteller section =============== -->
+    <section class="newsteller__section">
+        <div class="container newsteller__container">
+            <div class="newsteller__left">
+                <h2>Subscribe to our <br> newsteller.</h2>
+            </div>
+            <div class="newsteller__right">
+                <form action="">
+                    <input type="text" placeholder="Full name" required>
+                    <input type="email" placeholder="Email">
+                </form>
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== START OF FOOTER ======================= -->
+    <footer>
+        <div class="container footer__container" id="foot">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>NEATZY.</h4></a>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet sit ab esse!</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Condition</a></li>
+                    <li><a href="#">Refund policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91 9372568372</p>
+                    <p>neatzy@gmail.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li><a href="#"><i class="uil uil-facebook"></i></a></li>
+                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; NEATZY</small>
+        </div>
+    </footer>
+    <!-- ======================== END OF FOOTER ======================= -->
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "_BmzsE6L6xahGasWh",
+        });
+    })();
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
